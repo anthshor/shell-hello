@@ -2,7 +2,7 @@ jobs:
   include:
     - stage: test
       script:
-        - sh tests/test1.sh
+        - bash tests/test1.sh
     - stage: deploy      
       deploy:
         provider: releases
