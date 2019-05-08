@@ -9,6 +9,5 @@ jobs:
       provider: releases
       api_key:
         secure: dP+qwzCs+RXSB+YUw/4IGaRNn256RVRQoitAp5SgpAFkqDjcjzZmtM4kbNbQ+oyJxOtjdyLlN2vN0arY9jaZ4Hb9qsxEG3E70K1L3b3VtdIjRUi73YxcRyqfWbM+POODyLJk5ngC4q2abPQKsyftb1leCdPpcGkhZziLOauXpPiiCM83Ajv61MpGitZ+IiN8T1Dgd9vsMYZTKXVodswYruntOeCHCHeNyXU5wtGuuDrPovw5z7Z38d1l1nAFSm8TnQ4vRy6mZDzjm8HpgvBEX/bkTOK3mIDB42lJNAL2p0t8v3EHwN5KTcKwrorRKyQn4XH0pixRgDTgBWkILzGLaWd217CEk9sXFFcM4S2F/NHR2XGQK+s1w7vEzkKF2pwRW8Q1Ekqz2rwfwlhtKbnQaiI2PiMmQgmqC8f1oPz16TnLnmZ69yyQQwyG0JIR6ILsDASZNu7ADnVOPm+1QjGDLCmOc6uM251rJUzaEk32cnL7HuGb/Cn66lSuRG+pJeri+mxbHUJj/WgWbUQGdIXczAPZxbQNNzBaZBuSVnaPw9OudH/wi1xL9C9qskSe9FKzIft/LzmWi+eZikMFq+KZAMQQjKWl+q7liKqHgv4KcrezBjF5k73QGcKzAg9zABTQl4lW7zTfsWsaLMIrfXy+TTX/kdsVdOQS6kBnG/uNjNg=
-      file: ''
       on:
         repo: anthshor/shell-hello
