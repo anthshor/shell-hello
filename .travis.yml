@@ -1,13 +1,14 @@
 language: bash
 jobs:
   include:
-    - stage: test
-      script:
-        - bash tests/test1.sh
-    - stage: deploy      
-      deploy:
-        provider: releases
-        api_key:
-          secure: lV9MBti39/UPTXiqlv3c/OMSJvFaoLr+qcq0qAEkT1yeQaIU7EE5rljhVWKqY5k1FCn1ppOAOm0L627qdW0PvWtZAiadPr8l+d8iGLeYgrprIOPv8bUNk9hwdzWtjThdzmWuP+LrjKIgnSgp/XltJekL2bwmB7UA6LAZt+TA4JGhhLeGGyns4Aht6wInZCwD1TlPbXutSjBzFRrxNikZUTMkZNmYjhBmqPssX0EmCUeO/6fd8JiWKZt2VopzaN738t8ZTqtgF5x3ace0Djv391K10IZnZDvmUQdEEGat5cVY4cDjU47pKxUwZvpi9RPKWMlyThK5e3hetSVTfDj5UaqD8RwkmOKNuxRIAAYoLVqlzs8zdTglAEySQqXBg0CXaco08aV9NU44YIpy3vLtp/V3lUD5CLcA66oWbquxIJyr/oKDbc051xPOC97prnrEmeyUQvFt4YKpQEwwxYF1Di0tbFlt78IWU+YugWfNS3ohzKb2uMMyqvEH0w4yiudvo61f4eguGX6g6wI1WfQFcaWBLTnF6zZclCyMLQWncr656l0oc24vtOkjNMl9gQDXpRE6DlordNBb82nUkcZfR+GrpKn5EsWGwgfaKIjelhcK7t0stEChTl3FvClgmpeBR+tYPU6SvBvpjhCvhhPOV3z9+gIEMWDG/mzoAiOLuCE=
-        on:
-          repo: anthshor/shell-hello
+  - stage: test
+    script:
+    - bash tests/test1.sh
+  - stage: deploy
+    deploy:
+      provider: releases
+      api_key:
+        secure: dP+qwzCs+RXSB+YUw/4IGaRNn256RVRQoitAp5SgpAFkqDjcjzZmtM4kbNbQ+oyJxOtjdyLlN2vN0arY9jaZ4Hb9qsxEG3E70K1L3b3VtdIjRUi73YxcRyqfWbM+POODyLJk5ngC4q2abPQKsyftb1leCdPpcGkhZziLOauXpPiiCM83Ajv61MpGitZ+IiN8T1Dgd9vsMYZTKXVodswYruntOeCHCHeNyXU5wtGuuDrPovw5z7Z38d1l1nAFSm8TnQ4vRy6mZDzjm8HpgvBEX/bkTOK3mIDB42lJNAL2p0t8v3EHwN5KTcKwrorRKyQn4XH0pixRgDTgBWkILzGLaWd217CEk9sXFFcM4S2F/NHR2XGQK+s1w7vEzkKF2pwRW8Q1Ekqz2rwfwlhtKbnQaiI2PiMmQgmqC8f1oPz16TnLnmZ69yyQQwyG0JIR6ILsDASZNu7ADnVOPm+1QjGDLCmOc6uM251rJUzaEk32cnL7HuGb/Cn66lSuRG+pJeri+mxbHUJj/WgWbUQGdIXczAPZxbQNNzBaZBuSVnaPw9OudH/wi1xL9C9qskSe9FKzIft/LzmWi+eZikMFq+KZAMQQjKWl+q7liKqHgv4KcrezBjF5k73QGcKzAg9zABTQl4lW7zTfsWsaLMIrfXy+TTX/kdsVdOQS6kBnG/uNjNg=
+      file: ''
+      on:
+        repo: anthshor/shell-hello
